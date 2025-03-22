@@ -4,6 +4,20 @@ body{
     padding: 0;
     background-color: aliceblue;
 }
+.list-container ul {
+    display: flex;
+    flex-direction: column;
+    gap: 1px; 
+    padding: 0;
+}
+
+.list-container ul li {
+    list-style: none;
+    background: white;
+    padding: 10px;
+    border-radius: 5px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
 
 .container{
     max-width: 400px;
