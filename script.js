@@ -1,6 +1,4 @@
-const todoInput = document.getElementById('todo-input'); 
-
-
+    const todoInput = document.getElementById('todoInput'); 
     const addTodoBtn = document.getElementById('addTodoBtn');
     const todoList = document.getElementById('todoList');
 
